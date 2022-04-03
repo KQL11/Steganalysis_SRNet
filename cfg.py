@@ -1,0 +1,15 @@
+cfg = {'learning_rate':0.001,
+       'epochs':571,
+       'epochs_boundary':457,
+       'train_batch_size':16,
+       'valid_batch_size':10,
+       'test_batch_size':10,
+       'log_dir':'./media_shuffle/log',
+       'cover_dir':'/data/cover/',
+       'stego_dir':'/data/stego/',
+       'train_file':'./media_shuffle/train.txt',
+       'valid_file':'./media_shuffle/valid.txt',
+       'test_file':'./media_shuffle/test.txt',
+       'img_qc':75,
+       'tensorboard_log_dir':'./media_shuffle/log/runs/'
+       }
